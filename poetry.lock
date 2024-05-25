@@ -75,6 +75,17 @@ files = [
 Django = ">=3.2"
 
 [[package]]
+name = "django-rest-authtoken"
+version = "2.1.4"
+description = "A simple token-based auth backend for Django Rest Framework storing cryptographically hashed tokens on server-side."
+optional = false
+python-versions = "*"
+files = [
+    {file = "django-rest-authtoken-2.1.4.tar.gz", hash = "sha256:4b9351e5dbd27cb3ed7e7e6413c632ec61273afbc5a8061e157a8a15b4035e0a"},
+    {file = "django_rest_authtoken-2.1.4-py3-none-any.whl", hash = "sha256:9f0042ab81befb72113ee7cecdeda63ee9b79af33a663c0b6d9a091f219776c9"},
+]
+
+[[package]]
 name = "django-rest-framework"
 version = "0.1.0"
 description = "alias."
@@ -244,4 +255,4 @@ files = [
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-content-hash = "c0c8a07f6947a4edc3f766bc02d996ba4686f8d6a7f8d276c06f97a37af6dfab"
+content-hash = "b833cfe9bda7e43b0be9d3bc446d30294f35dbbbeadd5ea35716b85dbd4f272d"
