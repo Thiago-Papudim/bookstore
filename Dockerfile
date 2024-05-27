@@ -13,7 +13,7 @@ ENV PYTHONUNBUFFERED=1 \
     \
     # poetry
     # https://python-poetry.org/docs/configuration/#using-environment-variables
-    POETRY_VERSION=1.0.3 \
+    POETRY_VERSION=1.8.3 \
     # make poetry install to this location
     POETRY_HOME="/opt/poetry" \
     # make poetry create the virtual environment in the project's root
@@ -39,7 +39,7 @@ RUN apt-get update \
         build-essential
 
 # install poetry - respects $POETRY_VERSION & $POETRY_HOME
-RUN pip install poetry==1.5
+RUN pip install poetry
 
 RUN poetry init --no-interaction
 
