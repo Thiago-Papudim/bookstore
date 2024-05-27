@@ -39,7 +39,7 @@ RUN apt-get update \
         build-essential
 
 # install poetry - respects $POETRY_VERSION & $POETRY_HOME
-RUN pip install poetry
+RUN pip install poetry==1.5
 
 RUN poetry init --no-interaction
 
