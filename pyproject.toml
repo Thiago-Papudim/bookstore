@@ -12,12 +12,23 @@ psycopg2-binary = "^2.9.2"
 autopep8 = "^1.6.0"
 isort = "^5.10.1"
 djangorestframework = "^3.15.1"
+<<<<<<< Updated upstream
+=======
+<<<<<<< Updated upstream
+=======
+>>>>>>> Stashed changes
 django-rest-framework = "^0.1.0"
 django-extensions = "^3.2.3"
 django-debug-toolbar = "^4.3.0"
 django-rest-authtoken = "^2.1.4"
 flake8 = "^7.0.0"
 black = "^24.4.2"
+<<<<<<< Updated upstream
+=======
+whitenoise = "^6.6.0"
+gunicorn = "^22.0.0"
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
