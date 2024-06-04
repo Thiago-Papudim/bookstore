@@ -218,11 +218,6 @@ files = [
 python-dateutil = ">=2.4"
 
 [[package]]
-<<<<<<< Updated upstream
-=======
-<<<<<<< Updated upstream
-=======
->>>>>>> Stashed changes
 name = "flake8"
 version = "7.0.0"
 description = "the modular source code checker: pep8 pyflakes and co"
@@ -239,8 +234,6 @@ pycodestyle = ">=2.11.0,<2.12.0"
 pyflakes = ">=3.2.0,<3.3.0"
 
 [[package]]
-<<<<<<< Updated upstream
-=======
 name = "gunicorn"
 version = "22.0.0"
 description = "WSGI HTTP Server for UNIX"
@@ -262,8 +255,6 @@ testing = ["coverage", "eventlet", "gevent", "pytest", "pytest-cov"]
 tornado = ["tornado (>=0.2)"]
 
 [[package]]
->>>>>>> Stashed changes
->>>>>>> Stashed changes
 name = "iniconfig"
 version = "2.0.0"
 description = "brain-dead simple config-ini parsing"
@@ -565,12 +556,4 @@ brotli = ["Brotli"]
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.12"
-<<<<<<< Updated upstream
-content-hash = "6f322affdb61f4217d6bac6177ca075e71a7eab05d8756319f6d891fb35520a5"
-=======
-<<<<<<< Updated upstream
-content-hash = "19af31bec7f17bd74944e623eb5e25ab8a9ab5c8d464a9a26b6df5138ff7b756"
-=======
 content-hash = "e24115c1c3f655364571783bc5543bdb490a1b5827b2819e6f86f69e8b52958f"
->>>>>>> Stashed changes
->>>>>>> Stashed changes
