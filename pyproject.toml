@@ -20,6 +20,7 @@ flake8 = "^7.0.0"
 black = "^24.4.2"
 whitenoise = "^6.6.0"
 gunicorn = "^22.0.0"
+gitpython = "^3.1.43"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.2.0"
